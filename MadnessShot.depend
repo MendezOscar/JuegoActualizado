@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1402104787 source:/home/mendez/Documents/MadnessShotConfigs/BOSS.cpp
+	"BOSS.h"
+
+1402104787 /home/mendez/Documents/MadnessShotConfigs/BOSS.h
+	"Enemies.h"
+
+1402104787 /home/mendez/Documents/MadnessShotConfigs/Enemies.h
+	<SDL/SDL.h>
+	<iostream>
+
+1402104787 source:/home/mendez/Documents/MadnessShotConfigs/derecha.cpp
+	"derecha.h"
+
+1402104787 /home/mendez/Documents/MadnessShotConfigs/derecha.h
+	"Enemies.h"
+
+1402104787 source:/home/mendez/Documents/MadnessShotConfigs/Enemies.cpp
+	"Enemies.h"
+
