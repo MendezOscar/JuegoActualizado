@@ -441,7 +441,7 @@ void juego()
     int gastar = 0;
     bool nueva_carga = false;
     int reload = 33;
-    SDL_Surface *bullet[33];
+    SDL_Surface *bullet[32];
     int framegastar = 0;
     bullet[0] = load_image("bullet0.png");
     bullet[1] = load_image("bullet1.png");
@@ -475,7 +475,6 @@ void juego()
     bullet[29] = load_image("bullet29.png");
     bullet[30] = load_image("bullet30.png");
     bullet[31] = load_image("bullet31.png");
-    bullet[32] = load_image("bullet32.png");
 
     int animgastar1 = 0;
     int animgastar2 = 3;
@@ -606,7 +605,7 @@ void juego()
 
             if(event.type == SDL_MOUSEBUTTONDOWN)
             {
-                    if (gastar <= 11){
+                    if (gastar <= 10){
                 if(event.button.button == SDL_BUTTON_LEFT)
                 {
                     clickx = event.button.x;
@@ -626,8 +625,8 @@ void juego()
                         animgastar10 = 27;
                         animgastar11 = 30;
                         framegastar = 0;
-                        if (gastar > 33)
-                            gastar = 33;
+                        if (gastar > 32)
+                            gastar = 32;
 
                 }
                 }
@@ -902,7 +901,7 @@ void juego()
             animgastar11 = 30;
             framegastar = 0;
             gastar = 0;
-            apply_surface(0,0, bullet[0], screen);
+            apply_surface(530,0, bullet[0], screen);
             nueva_carga=false;
         }
 
@@ -1050,9 +1049,9 @@ void juego()
                 animgastar11++;
             framegastar++;
 
-            if(animgastar11 > 34)
+            if(animgastar11 > 32)
             {
-                animgastar11 = 34;
+                animgastar11 = 32;
             }
 
         }

@@ -18,3 +18,32 @@
 1402104787 source:/home/mendez/Documents/MadnessShotConfigs/Enemies.cpp
 	"Enemies.h"
 
+1402111221 source:/home/mendez/Documents/MadnessShotConfigs/main.cpp
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	<string>
+	<stdlib.h>
+	<iostream>
+	"Enemies.h"
+	<list>
+	"derecha.h"
+	"abajo.h"
+	"arriba.h"
+	<sstream>
+	<fstream>
+	"SDL/SDL_ttf.h"
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+	<list>
+	<algorithm>
+	<vector>
+	"BOSS.h"
+
+1402104787 /home/mendez/Documents/MadnessShotConfigs/abajo.h
+	"Enemies.h"
+
+1402104787 /home/mendez/Documents/MadnessShotConfigs/arriba.h
+	"Enemies.h"
+
